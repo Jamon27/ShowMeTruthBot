@@ -1,0 +1,22 @@
+{
+  "name": "showmetruthbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamon27/ShowMeTruthBot.git"
+  },
+  "author": "Jamon27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamon27/ShowMeTruthBot/issues"
+  },
+  "homepage": "https://github.com/Jamon27/ShowMeTruthBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
