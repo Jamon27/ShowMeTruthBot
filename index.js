@@ -5,6 +5,8 @@ const TOKEN = config.get('token');
 const bot = new TelegramBot(TOKEN, {polling: true});
 
 bot.on('message', msg => {
-    const {chat: {id}} = msg;
-    bot.sendMessage(id, 'PONG');
+    const fromChatId = msg.chat.id;
+    const toChatId = -811866221;
+
+    bot.forwardMessage(toChatId, fromChatId, msg.message_id)
 })
